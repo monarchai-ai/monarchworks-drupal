@@ -44,7 +44,7 @@ default:
       value: Send
   field_heading:
     -
-      value: 'Get in Touch (Updated)'
+      value: 'Get in Touch'
   field_property:
     -
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
