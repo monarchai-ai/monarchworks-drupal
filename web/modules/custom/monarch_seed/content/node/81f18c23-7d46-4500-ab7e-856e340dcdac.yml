@@ -1,0 +1,107 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 81f18c23-7d46-4500-ab7e-856e340dcdac
+  bundle: legal_document
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Terms of Use'
+  created:
+    -
+      value: 1780864270
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: |-
+        <h2>1. Definitions</h2>
+        <p>"Monarch Works Corp." ("we", "us", or "our") operates the Create Platform and related services. "Customer" means any entity that accesses or uses the Services. "Services" means all products, software, and services provided by Monarch Works Corp.</p>
+
+        <h2>2. Services</h2>
+        <p>Monarch Works Corp. provides the Create Platform—a collaborative software development environment where human expertise and AI agents work together through structured specifications to deliver production-ready software systems.</p>
+
+        <h2>3. Acceptance of Terms</h2>
+        <p>By accessing or using our Services, you agree to be bound by these Terms of Use. If you do not agree to these terms, do not use our Services.</p>
+
+        <h2>4. License</h2>
+        <p>Subject to these Terms, Monarch Works Corp. grants you a limited, non-exclusive, non-transferable license to access and use the Services for your internal business purposes.</p>
+
+        <h2>5. Customer Responsibilities</h2>
+        <p>You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.</p>
+
+        <h2>6. Data Rights</h2>
+        <p>You retain ownership of all data you submit to the Services. By submitting data, you grant Monarch Works Corp. a limited license to use that data to provide and improve the Services.</p>
+
+        <h2>7. Security</h2>
+        <p>We implement industry-standard security measures to protect your data. You are responsible for maintaining the security of your account.</p>
+
+        <h2>8. Suspension</h2>
+        <p>We reserve the right to suspend or terminate your access to the Services if you violate these Terms or for any other reason at our discretion.</p>
+
+        <h2>9. Fees</h2>
+        <p>Fees for the Services are as described on our website or in your subscription agreement. All fees are non-refundable unless otherwise stated.</p>
+
+        <h2>10. Confidentiality</h2>
+        <p>Each party agrees to keep the other party's confidential information confidential and not to disclose it to third parties.</p>
+
+        <h2>11. Intellectual Property</h2>
+        <p>All intellectual property rights in the Services remain with Monarch Works Corp. You receive only the rights expressly granted in these Terms.</p>
+
+        <h2>12. Indemnification</h2>
+        <p>You agree to indemnify and hold harmless Monarch Works Corp. from any claims arising from your use of the Services or violation of these Terms.</p>
+
+        <h2>13. Publicity</h2>
+        <p>You agree that Monarch Works Corp. may use your name and logo to identify you as a customer in marketing materials, subject to your prior written consent.</p>
+
+        <h2>14. Disclaimers</h2>
+        <p>THE SERVICES ARE PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED.</p>
+
+        <h2>15. Limitation of Liability</h2>
+        <p>IN NO EVENT SHALL MONARCH WORKS CORP. BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES.</p>
+
+        <h2>16. Termination</h2>
+        <p>Either party may terminate these Terms upon written notice. Upon termination, your right to use the Services will immediately cease.</p>
+
+        <h2>17. Changes to Terms</h2>
+        <p>We reserve the right to modify these Terms at any time. We will notify you of significant changes via email or through the Services.</p>
+
+        <h2>18. Governing Law</h2>
+        <p>These Terms are governed by the laws of the State of California. Any disputes shall be resolved through binding arbitration administered by the American Arbitration Association (AAA).</p>
+
+        <h2>19. Contact Information</h2>
+        <p>For support: support@monarchworks.ai</p>
+        <p>For legal matters: legal@monarchworks.ai</p>
+
+        <h2>20. Entire Agreement</h2>
+        <p>These Terms constitute the entire agreement between you and Monarch Works Corp. regarding the Services.</p>
+      format: basic_html
+  field_last_updated:
+    -
+      value: 'December 2025'
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_slug:
+    -
+      value: terms

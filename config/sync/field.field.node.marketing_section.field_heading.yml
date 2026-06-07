@@ -1,0 +1,19 @@
+uuid: af54ddc9-3eb2-4ea5-913d-47a5b016cc95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_heading
+    - node.type.marketing_section
+id: node.marketing_section.field_heading
+field_name: field_heading
+entity_type: node
+bundle: marketing_section
+label: Heading
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

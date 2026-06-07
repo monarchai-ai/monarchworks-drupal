@@ -1,0 +1,11 @@
+uuid: 37166ab5-b12e-45f9-9708-67b641d87f4a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Site Meta'
+type: site_meta
+description: 'Per-page SEO metadata for property websites.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

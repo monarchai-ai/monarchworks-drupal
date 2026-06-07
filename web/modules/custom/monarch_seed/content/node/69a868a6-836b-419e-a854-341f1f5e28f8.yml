@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 69a868a6-836b-419e-a854-341f1f5e28f8
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: "What We're Building — monarchworks-website"
+  created:
+    -
+      value: 1780864227
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: |-
+        <p>Current AI coding tools generate fragments from vague prompts—fast but unreliable. The result: security vulnerabilities, unmaintainable code, and projects that collapse under real-world pressure.</p>
+
+        <p>Create takes a different approach. Business professionals define what they need through structured, reviewable specifications. AI agents—specialized in security, architecture, UX, and more—collaborate to expand these specs and generate complete systems: frontend, backend, APIs, tests, and infrastructure.</p>
+
+        <p>Every decision is tracked. Every change is reviewable. The specification becomes the permanent asset; the code becomes regenerable for any technology stack.</p>
+      format: basic_html
+  field_eyebrow:
+    -
+      value: "What We're Building"
+  field_heading:
+    -
+      value: 'Specifications as the source of truth. AI as the execution layer.'
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: what-we-building

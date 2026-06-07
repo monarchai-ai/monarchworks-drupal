@@ -1,0 +1,23 @@
+# Composer-managed dependencies — installed by `composer install` in the container
+/vendor/
+
+# Drupal core — managed by Composer (drupal/core-recommended)
+# Uncomment to exclude if not committing core:
+# /web/core/
+
+# Drupal user-uploaded files
+web/sites/*/files/
+web/sites/*/private/
+
+# Sensitive settings — credentials read from environment variables in Docker
+web/sites/*/settings.local.php
+
+# Simpletest
+web/sites/simpletest/
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

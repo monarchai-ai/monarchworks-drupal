@@ -1,0 +1,19 @@
+uuid: 0cbabece-89c2-46a4-b118-16e637006cb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cta_href
+    - node.type.marketing_section
+id: node.marketing_section.field_cta_href
+field_name: field_cta_href
+entity_type: node
+bundle: marketing_section
+label: 'CTA Href'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

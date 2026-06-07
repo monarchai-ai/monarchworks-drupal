@@ -1,0 +1,19 @@
+uuid: b79561bf-6744-43d2-82f1-0361b0412256
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo_title
+    - node.type.site_meta
+id: node.site_meta.field_seo_title
+field_name: field_seo_title
+entity_type: node
+bundle: site_meta
+label: 'SEO Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

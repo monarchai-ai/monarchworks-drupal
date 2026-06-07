@@ -1,0 +1,21 @@
+name: Monarch Seed
+type: module
+description: 'Canonical seed content for the MonarchWorks headless Drupal hub. The content/ directory holds Default Content exports (nodes, taxonomy terms, media) that represent baseline content for all properties.'
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - drupal:default_content
+
+default_content:
+  node:
+    - 088b43b7-f856-4c7a-9516-0535b3899e2b
+    - 69a868a6-836b-419e-a854-341f1f5e28f8
+    - d2ffc2b0-1c03-4457-be69-e69dd97f05c2
+    - 81f18c23-7d46-4500-ab7e-856e340dcdac
+    - efc91a5b-6369-4ee3-85db-ce0fbf7667f6
+    - 14acbb85-cd34-4c53-84dd-597a782ca525
+    - dc6b6ba2-6f3f-4fab-80e4-6dc7f9e5131e
+    - a05894d5-e764-4e45-8718-047f9e6a37ca
+  taxonomy_term:
+    - 5e7c9617-f72b-4314-ba56-15549bdac466
+    - 5cf663bc-038b-4334-af4a-ff49d7d8ec56

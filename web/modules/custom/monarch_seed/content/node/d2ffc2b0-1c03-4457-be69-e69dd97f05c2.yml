@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d2ffc2b0-1c03-4457-be69-e69dd97f05c2
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Contact CTA — monarchworks-website'
+  created:
+    -
+      value: 1780864235
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "Have a question or want to learn more about what we do? We'd love to hear from you."
+      format: basic_html
+  field_cta_href:
+    -
+      value: '#contact'
+  field_cta_label:
+    -
+      value: Send
+  field_heading:
+    -
+      value: 'Get in Touch'
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: contact-cta

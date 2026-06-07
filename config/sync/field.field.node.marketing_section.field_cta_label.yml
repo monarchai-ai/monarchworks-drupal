@@ -1,0 +1,19 @@
+uuid: 9a2301b9-5536-4d0c-8c51-572632ff4ff8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cta_label
+    - node.type.marketing_section
+id: node.marketing_section.field_cta_label
+field_name: field_cta_label
+entity_type: node
+bundle: marketing_section
+label: 'CTA Label'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

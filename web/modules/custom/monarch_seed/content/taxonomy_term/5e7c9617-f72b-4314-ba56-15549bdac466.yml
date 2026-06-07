@@ -1,0 +1,23 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 5e7c9617-f72b-4314-ba56-15549bdac466
+  bundle: property
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: monarchworks-website
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  path:
+    -
+      alias: ''
+      langcode: en

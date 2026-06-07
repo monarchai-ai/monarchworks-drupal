@@ -1,0 +1,11 @@
+uuid: b0ddf2d6-17c8-4651-b789-6c967c1339fd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Legal Document'
+type: legal_document
+description: 'Legal documents like terms of use and privacy policy.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

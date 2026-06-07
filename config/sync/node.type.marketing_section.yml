@@ -1,0 +1,11 @@
+uuid: 470c0a05-bce8-4f53-9488-e86b69d571ec
+langcode: en
+status: true
+dependencies: {  }
+name: 'Marketing Section'
+type: marketing_section
+description: 'Marketing content sections for property websites.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
