@@ -453,7 +453,7 @@ docker exec monarchai-deploy-drupal-1 vendor/bin/drush config:import -y
 
 docker exec monarchai-deploy-drupal-1 vendor/bin/drush pm:enable monarch_seed -y
 
-docker exec monarchai-deploy-drupal-1 vendor/bin/drush default-content:import-module monarch_seed
+docker exec monarchai-deploy-drupal-1 vendor/bin/drush php:eval "\Drupal::service('default_content.importer')->importContent('monarch_seed');"
 ```
 
 Then run the JSON:API curl checks from Step 9 to confirm all baseline content

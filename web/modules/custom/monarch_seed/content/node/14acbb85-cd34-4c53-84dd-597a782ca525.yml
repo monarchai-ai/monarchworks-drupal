@@ -15,7 +15,7 @@ default:
       value: true
   uid:
     -
-      target_id: 0
+      target_id: 1
   title:
     -
       value: 'Site Meta: Home'
@@ -35,12 +35,12 @@ default:
   field_page_key:
     -
       value: home
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_seo_description:
     -
       value: 'Monarch Works is developing Create—a platform where human expertise and AI agents collaborate through structured specifications to deliver complete, production-ready software systems.'
   field_seo_title:
     -
       value: Home
-  field_property:
-    -
-      entity: 5e7c9617-f72b-4314-ba56-15549bdac466

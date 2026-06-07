@@ -15,7 +15,7 @@ default:
       value: true
   uid:
     -
-      target_id: 0
+      target_id: 1
   title:
     -
       value: 'Site Meta: Privacy'
@@ -35,12 +35,12 @@ default:
   field_page_key:
     -
       value: privacy
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_seo_description:
     -
       value: 'Privacy Policy for Monarch Works - how we collect, use, and protect your data.'
   field_seo_title:
     -
       value: 'Privacy Policy'
-  field_property:
-    -
-      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
