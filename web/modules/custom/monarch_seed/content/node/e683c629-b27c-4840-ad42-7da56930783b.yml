@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e683c629-b27c-4840-ad42-7da56930783b
+  bundle: marketing_page
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+    ee7de1d9-acb4-4a4c-a40a-a950ae4cb39a: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Innovate — Pricing'
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: innovate-pricing
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_route:
+    -
+      value: /innovate/pricing
+  field_scope:
+    -
+      value: innovate
+  field_site_meta:
+    -
+      entity: ee7de1d9-acb4-4a4c-a40a-a950ae4cb39a

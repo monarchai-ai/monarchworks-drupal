@@ -1,0 +1,11 @@
+uuid: 4cbd40c7-71a3-41bb-99f1-188e625e4ee0
+langcode: en
+status: true
+dependencies: {  }
+name: 'Marketing Page'
+type: marketing_page
+description: 'A composed page: a route + scope, filled by ordered marketing_section nodes.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

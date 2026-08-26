@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f6023ef0-0d1b-4d64-bda6-f0f9e7dc5053
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    29d76d8e-c89a-452f-8491-c336739b0fb4: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: hiw-steps
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_eyebrow:
+    -
+      value: 'The short version'
+  field_page:
+    -
+      entity: 29d76d8e-c89a-452f-8491-c336739b0fb4
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"layout":"stack","steps":[{"title":"Describe it","body":"You tell Innovate the outcome you want, in your own words \u2014 what should go in, what should come out, and any rules it should follow."},{"title":"Innovate builds it","body":"It puts together the right AI for the job \u2014 one agent, or a team of them working together \u2014 and turns that into a working service."},{"title":"Put it in your product","body":"Embed the service in the app you already use, or drop in a ready-made chat box, form, or panel. It becomes part of your product."},{"title":"Run it, watch it, tune it","body":"Every run shows you what it did and what it cost. You adjust it, improve it, and set the limits \u2014 all in plain sight."}]}'
+  field_section_key:
+    -
+      value: hiw-steps
+  field_section_type:
+    -
+      value: steps
+  field_weight:
+    -
+      value: 10

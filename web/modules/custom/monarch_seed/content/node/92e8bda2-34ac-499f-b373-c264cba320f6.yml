@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 92e8bda2-34ac-499f-b373-c264cba320f6
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    bc8b752a-454f-46db-a8c3-c3488c2fbffb: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: home-trust
+  created:
+    -
+      value: 1786492800
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "<p>Innovate runs your AI as a fully managed service — always on, embedded in your product, and scaling with your customers from the first conversation to millions. No infrastructure to provision, no models to manage, no capacity to babysit: the platform handles reliability, performance, and cost while your team stays focused on the work.</p>"
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'AI as a service'
+  field_heading:
+    -
+      value: 'Your AI, delivered as a service that scales.'
+  field_page:
+    -
+      entity: bc8b752a-454f-46db-a8c3-c3488c2fbffb
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: home-trust
+  field_section_type:
+    -
+      value: trust-split
+  field_weight:
+    -
+      value: 30
+  field_section_data:
+    -
+      value: '{"contrast":["Simple on the surface.","Scalable underneath."],"followOn":"Add an agent, add a whole team of them, add your next thousand customers — the service grows with you, and you always see what it does and what it costs.","stat":{"big":"24/7","label":"Always-on managed service","body":"Your AI services run as managed infrastructure — monitored, metered, and scaled by the platform, with full visibility and full control in your hands."}}'

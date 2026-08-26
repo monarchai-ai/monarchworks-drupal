@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: baf7ba4a-801b-49f9-bd1f-1869e171a1c4
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    481518cd-2f1d-4245-ba8e-166d629cbfd7: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: innovate-why
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_heading:
+    -
+      value: "Not a chatbot you visit. <span class='text-gradient'>A service that lives in your product.</span>"
+  field_page:
+    -
+      entity: 481518cd-2f1d-4245-ba8e-166d629cbfd7
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"columns":2,"cards":[{"eyebrow":"Embed","title":"It lives inside your product","body":"Your AI service becomes part of the app you already use \u2014 right where your customers are, not one more separate tool to open. Use it just as it comes, or make it match the look of your product, down to the detail."},{"eyebrow":"No queue","title":"The team with the idea makes it real","body":"The people who understand the work set it up and put it live themselves \u2014 no writing up a request, no waiting a quarter, no watching the idea lose its shape as it passes from hand to hand."},{"eyebrow":"Right-sized AI","title":"Smart where it matters, lean where it doesn''t","body":"Innovate uses the most capable AI for the parts that need it, and something lighter for the parts that don''t. You get quality where it counts and a bill that makes sense."},{"eyebrow":"Costs, capped","title":"Production-ready, with a cap you set","body":"See exactly what it''s doing and what it costs, and set a spending limit before it runs even once — the hard operational work is already handled."}]}'
+  field_section_key:
+    -
+      value: innovate-why
+  field_section_type:
+    -
+      value: feature-grid
+  field_weight:
+    -
+      value: 20

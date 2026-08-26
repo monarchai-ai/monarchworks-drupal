@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 124f203d-fe32-4f37-89e4-6279880eec52
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    e683c629-b27c-4840-ad42-7da56930783b: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: pricing-three
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_heading:
+    -
+      value: 'The three things you pay for'
+  field_page:
+    -
+      entity: e683c629-b27c-4840-ad42-7da56930783b
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"columns":3,"cards":[{"eyebrow":"01 \u00b7 Plan fee","body":"Your flat monthly base. It sets which capabilities you have and includes a number of live services."},{"eyebrow":"02 \u00b7 Per live service","body":"A flat monthly charge for each live service beyond the ones your plan includes."},{"eyebrow":"03 \u00b7 Usage","body":"The AI usage your services consume, billed on top at cost plus 25%. A spending cap keeps it all under control."}]}'
+  field_section_key:
+    -
+      value: pricing-three
+  field_section_type:
+    -
+      value: feature-grid
+  field_weight:
+    -
+      value: 10

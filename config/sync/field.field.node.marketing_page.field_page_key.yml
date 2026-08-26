@@ -1,0 +1,19 @@
+uuid: f1894eb3-d103-4c25-8f4b-81f809b8b7c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_key
+    - node.type.marketing_page
+id: node.marketing_page.field_page_key
+field_name: field_page_key
+entity_type: node
+bundle: marketing_page
+label: 'Page key'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

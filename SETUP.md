@@ -145,6 +145,18 @@ print 'Done';
 
 ## Step 5 — Create Content Types
 
+> **Note (content model has grown since this section was written).** This step
+> documents the original three-type model (`marketing_section`, `legal_document`,
+> `site_meta`) used to bootstrap the hub. The site has since moved to a
+> **page-composition** model — `marketing_page`, a richer `marketing_section`
+> (with `field_page`, `field_weight`, `field_section_type`, `field_section_data`),
+> `product`, and scoped `nav_menu`/`nav_link`. The current model is captured in
+> `config/sync` and reproduced by `drush config:import`; it is documented in
+> `project/docs/developer/monarchworks-website-content-architecture.md` (developer)
+> and `project/docs/user/monarchworks-website-composing-pages.md` (editor). Use
+> those as the source of truth; the steps below remain useful only for
+> understanding the original baseline.
+
 All content types are created via Admin → Structure → Content types → Add content type (or via Drush php:eval).
 
 ### 5a. marketing_section
@@ -168,21 +180,13 @@ Fields to add (Admin → Structure → Content types → Marketing Section → M
 | Media | `field_media` | Entity reference → Media | Optional; cardinality 1 |
 | Property | `field_property` | Entity reference → Taxonomy term (vocabulary: property) | Required; cardinality 1 |
 
-### 5b. legal_document
+### 5b. legal_document — RETIRED (task 443)
 
-| Setting | Value |
-|---------|-------|
-| Name | Legal Document |
-| Machine name | `legal_document` |
-
-Fields:
-
-| Label | Machine name | Field type | Notes |
-|-------|-------------|------------|-------|
-| Slug | `field_slug` | Text (plain) | Required; values: `terms`, `privacy` |
-| Last Updated | `field_last_updated` | Text (plain) | e.g. "December 2025" |
-| Body | `field_body` | Text (formatted, long) | Required |
-| Property | `field_property` | Entity reference → Taxonomy term (vocabulary: property) | Required; cardinality 1 |
+The `legal_document` content type has been removed. Legal policy content
+(Terms of Use, Privacy Policy) is owned by AMS as published `PolicyDocument`
+versions; the website's `/terms` and `/privacy` pages fetch the current
+published document client-side from the AMS public policy-documents endpoint.
+Drupal no longer stores any legal text.
 
 ### 5c. site_meta
 
@@ -299,41 +303,12 @@ Source file: `monarchworks-website/src/components/sections/ContactCTA.astro`
 | field_cta_href | (contact form action — not a nav link; Astro renders its own form) |
 | field_property | `monarchworks-website` |
 
-### 8d. legal_document — terms
+### 8d / 8e. legal_document seeds — RETIRED (task 443)
 
-Source file: `monarchworks-website/src/pages/terms.astro`
-
-| Field | Value |
-|-------|-------|
-| Title (admin) | Terms of Use |
-| field_slug | `terms` |
-| field_last_updated | `December 2025` |
-| field_body | Full HTML of the Terms of Use article (copy from `terms.astro` lines 14–208, stripping the outer `<article>` wrapper but keeping all `<h2>`, `<h3>`, `<p>`, `<ol>`, `<li>` markup). |
-| field_property | `monarchworks-website` |
-
-Key content from `terms.astro`:
-- Governing entity: Monarch Works Corp.
-- Last Updated: December 2025
-- Sections 1–20 covering Definitions, Services, Acceptance, License, Customer
-  Responsibilities, Data Rights, Security, Suspension, Fees, Confidentiality,
-  IP, Indemnification, Publicity, Disclaimers, Liability, Termination, Changes,
-  Governing Law (California / AAA arbitration), and Contact Information.
-- Contact: support@monarchworks.ai (support), legal@monarchworks.ai (legal)
-
-### 8e. legal_document — privacy
-
-Source file: `monarchworks-website/src/pages/privacy.astro`
-
-| Field | Value |
-|-------|-------|
-| Title (admin) | Privacy Policy |
-| field_slug | `privacy` |
-| field_last_updated | `December 30, 2025` |
-| field_body | Full Termly-generated HTML from `privacy.astro` lines 15–end (the inner div block), preserving all inline styles and data-custom-class attributes or stripping to clean semantic HTML at editor discretion. |
-| field_property | `monarchworks-website` |
-
-Key content: Monarch Works Corporation privacy notice covering data collection,
-processing, and rights as of December 30, 2025.
+The Terms of Use and Privacy Policy seed nodes have been removed along with
+the `legal_document` content type. AMS is the single source of legal text —
+documents are seeded and published there (see the AMS PolicyDocument seed),
+and the website fetches the current published version live.
 
 ### 8f. site_meta — home
 
@@ -402,9 +377,6 @@ curl "http://localhost:4478/jsonapi/node/marketing_section?filter[field_property
 # Specific section key
 curl "http://localhost:4478/jsonapi/node/marketing_section?filter[field_property.name]=monarchworks-website&filter[field_section_key]=hero"
 
-# Legal documents
-curl "http://localhost:4478/jsonapi/node/legal_document?filter[field_property.name]=monarchworks-website"
-
 # Site meta
 curl "http://localhost:4478/jsonapi/node/site_meta?filter[field_property.name]=monarchworks-website"
 ```
@@ -466,12 +438,14 @@ is present and filterable.
 | Content type | Endpoint | Key filter |
 |-------------|----------|------------|
 | marketing_section | `/jsonapi/node/marketing_section` | `filter[field_property.name]=monarchworks-website&filter[field_section_key]=<key>` |
-| legal_document | `/jsonapi/node/legal_document` | `filter[field_property.name]=monarchworks-website&filter[field_slug]=<slug>` |
 | site_meta | `/jsonapi/node/site_meta` | `filter[field_property.name]=monarchworks-website&filter[field_page_key]=<key>` |
 
 Section keys: `hero`, `what-we-building`, `contact-cta`
-Legal slugs: `terms`, `privacy`
 Meta page keys: `home`, `terms`, `privacy`
+
+Legal policy content (Terms of Use, Privacy Policy) is not served from Drupal —
+the website fetches it client-side from the AMS public policy-documents
+endpoint (task 443).
 
 For content with media: append `&include=field_media,field_media.field_media_image`
 

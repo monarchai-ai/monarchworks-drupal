@@ -1,0 +1,27 @@
+uuid: e0598e8e-fa5e-4340-8e9a-eb0e9044bc5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_menu
+    - node.type.nav_link
+    - node.type.nav_menu
+id: node.nav_link.field_menu
+field_name: field_menu
+entity_type: node
+bundle: nav_link
+label: Menu
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      nav_menu: nav_menu
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

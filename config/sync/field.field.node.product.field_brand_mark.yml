@@ -1,0 +1,21 @@
+uuid: 6f82b82f-92a5-4ab9-bfe3-baa1dff4fd4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_brand_mark
+    - node.type.product
+  module:
+    - options
+id: node.product.field_brand_mark
+field_name: field_brand_mark
+entity_type: node
+bundle: product
+label: 'Brand mark'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

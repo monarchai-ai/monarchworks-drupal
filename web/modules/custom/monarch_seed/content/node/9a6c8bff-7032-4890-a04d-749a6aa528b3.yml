@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9a6c8bff-7032-4890-a04d-749a6aa528b3
+  bundle: marketing_page
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+    801ce697-c457-4d6d-b990-9daf1f8c14a7: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Innovate — About'
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: innovate-about
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_route:
+    -
+      value: /innovate/about
+  field_scope:
+    -
+      value: innovate
+  field_site_meta:
+    -
+      entity: 801ce697-c457-4d6d-b990-9daf1f8c14a7

@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 048b8dc1-7f70-4277-83a6-ebfec9fb9815
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    53fd9e91-5ca0-4b5b-bf36-d02dc633baeb: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: answers-hero
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: 'The questions people actually ask about Innovate — and how it compares to the alternatives.'
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'Answers & comparisons'
+  field_heading:
+    -
+      value: 'Straight answers.'
+  field_page:
+    -
+      entity: 53fd9e91-5ca0-4b5b-bf36-d02dc633baeb
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: answers-hero
+  field_section_type:
+    -
+      value: hero
+  field_weight:
+    -
+      value: 0

@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 010fa344-079c-4229-9e77-c4719c6af083
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    9a6c8bff-7032-4890-a04d-749a6aa528b3: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: about-conviction
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "<p>There's a moment, every few decades, when something that used to require a specialist stops requiring one.</p><p>It happened when publishing a website stopped needing a developer for every change. We think AI is at that moment now. The hard part was never having the idea — the people who run the business are full of ideas. The hard part was getting those ideas into the product without losing them in translation. That's the part Innovate removes.</p>"
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'The conviction'
+  field_page:
+    -
+      entity: 9a6c8bff-7032-4890-a04d-749a6aa528b3
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: about-conviction
+  field_section_type:
+    -
+      value: prose
+  field_weight:
+    -
+      value: 10

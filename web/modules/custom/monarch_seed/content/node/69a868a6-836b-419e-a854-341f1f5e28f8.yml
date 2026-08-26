@@ -5,6 +5,7 @@ _meta:
   bundle: marketing_section
   default_langcode: en
   depends:
+    bc8b752a-454f-46db-a8c3-c3488c2fbffb: node
     5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
 default:
   revision_uid:
@@ -18,7 +19,7 @@ default:
       target_id: 1
   title:
     -
-      value: "What We're Building — monarchworks-website"
+      value: what-we-building
   created:
     -
       value: 1780864227
@@ -34,22 +35,29 @@ default:
       langcode: en
   field_body:
     -
-      value: |-
-        <p>Current AI coding tools generate fragments from vague prompts—fast but unreliable. The result: security vulnerabilities, unmaintainable code, and projects that collapse under real-world pressure.</p>
-
-        <p>Create takes a different approach. Business professionals define what they need through structured, reviewable specifications. AI agents—specialized in security, architecture, UX, and more—collaborate to expand these specs and generate complete systems: frontend, backend, APIs, tests, and infrastructure.</p>
-
-        <p>Every decision is tracked. Every change is reviewable. The specification becomes the permanent asset; the code becomes regenerable for any technology stack.</p>
+      value: "<p>Most tools treat AI as something that happens to your team — handed down, hard to direct, easy to lose control of. We think that's backwards. The people who understand the work are the ones who should be steering the AI that does it, with their hands on the controls and their judgment setting the standard.</p>"
       format: basic_html
   field_eyebrow:
     -
-      value: "What We're Building"
+      value: 'What we believe'
   field_heading:
     -
-      value: 'Specifications as the source of truth. AI as the execution layer.'
+      value: 'The people closest to the work should be the ones who shape it.'
+  field_page:
+    -
+      entity: bc8b752a-454f-46db-a8c3-c3488c2fbffb
   field_property:
     -
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"closer":"That belief is behind everything we build."}'
   field_section_key:
     -
       value: what-we-building
+  field_section_type:
+    -
+      value: belief
+  field_weight:
+    -
+      value: 10

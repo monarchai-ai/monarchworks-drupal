@@ -1,0 +1,19 @@
+uuid: db6944af-7c05-4a1d-91ee-9f9979c3b2c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tagline
+    - node.type.product
+id: node.product.field_tagline
+field_name: field_tagline
+entity_type: node
+bundle: product
+label: Tagline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

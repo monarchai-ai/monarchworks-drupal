@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1df6ff70-ef65-4e4e-bb88-4c766c076336
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    53fd9e91-5ca0-4b5b-bf36-d02dc633baeb: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: answers-cmp2
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_heading:
+    -
+      value: 'Innovate vs. enterprise agent platforms'
+  field_page:
+    -
+      entity: 53fd9e91-5ca0-4b5b-bf36-d02dc633baeb
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"intro":"Enterprise agent platforms are built to govern many agents across a whole organization. Innovate is built to get one AI service into one product, fast \u2014 and to keep it visible and controlled once it''s there. The enterprise control planes are powerful and thorough. They are also heavy: owned by IT, governance-first, often tied to a single cloud ecosystem.","headers":["","Enterprise agent platforms","Innovate"],"rows":[["Built for","Governing many agents org-wide","Embedding one service in your product"],["Owned by","IT \/ platform teams","The team that owns the problem"],["Time to first live service","Weeks to months","An afternoon"],["Approach","Governance-first","Ship-first, with control built in"],["Ecosystem","Often tied to one cloud","Runs alongside what you already use"],["Best when","You''re coordinating agents at scale","You need a specific service live now"]],"callout":{"title":"When an enterprise platform is the better choice","body":"If your job is to coordinate and govern many agents across many departments, with central policy and fleet-wide oversight as the primary need, an enterprise control plane is built for exactly that. Innovate is the better choice when the goal is a specific service, in a specific product, live quickly."}}'
+  field_section_key:
+    -
+      value: answers-cmp2
+  field_section_type:
+    -
+      value: comparison-table
+  field_weight:
+    -
+      value: 20

@@ -1,0 +1,64 @@
+uuid: 0b284de4-cd7d-4bee-9808-b2903276bfc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.marketing_page.field_page_key
+    - field.field.node.marketing_page.field_property
+    - field.field.node.marketing_page.field_route
+    - field.field.node.marketing_page.field_scope
+    - field.field.node.marketing_page.field_site_meta
+    - node.type.marketing_page
+  module:
+    - options
+    - user
+id: node.marketing_page.default
+targetEntityType: node
+bundle: marketing_page
+mode: default
+content:
+  field_page_key:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_property:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  field_route:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_scope:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_site_meta:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

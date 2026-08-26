@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ab1a0b2d-b0b9-47f5-81b1-4b5e56c735f6
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    84006606-3bc9-4a97-8af6-0f48812e74a7: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: about-mw-story
+  created:
+    -
+      value: 1783698698
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "<p>MonarchWorks was started by people who spent twenty-five years running cloud infrastructure — the systems underneath other companies' software, kept reliable and efficient at scale. From that seat you see the same pattern in every industry: the people who understand the business have the ideas, and a queue of specialists stands between those ideas and the product.</p><p>When AI made it possible to close that gap, most of the industry pointed it at the people instead of the queue — tools handed down from above, hard to direct, easy to lose control of. We started MonarchWorks to build the opposite: AI that the people closest to the work pick up, point, and stay in command of.</p>"
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'Where we come from'
+  field_heading:
+    -
+      value: "Twenty-five years underneath other companies' software."
+  field_page:
+    -
+      entity: 84006606-3bc9-4a97-8af6-0f48812e74a7
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: about-mw-story
+  field_section_type:
+    -
+      value: prose
+  field_weight:
+    -
+      value: 10

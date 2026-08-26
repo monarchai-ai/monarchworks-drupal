@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 84006606-3bc9-4a97-8af6-0f48812e74a7
+  bundle: marketing_page
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+    d4d07dc3-91b0-4a60-a74e-27edd321895e: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'About Monarch Works'
+  created:
+    -
+      value: 1783698698
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: about
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_route:
+    -
+      value: /about
+  field_scope:
+    -
+      value: monarchworks
+  field_site_meta:
+    -
+      entity: d4d07dc3-91b0-4a60-a74e-27edd321895e

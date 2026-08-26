@@ -5,6 +5,7 @@ _meta:
   bundle: marketing_section
   default_langcode: en
   depends:
+    bc8b752a-454f-46db-a8c3-c3488c2fbffb: node
     5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
 default:
   revision_uid:
@@ -12,13 +13,13 @@ default:
       target_id: 0
   status:
     -
-      value: true
+      value: false
   uid:
     -
       target_id: 1
   title:
     -
-      value: 'Contact CTA — monarchworks-website'
+      value: contact-cta
   created:
     -
       value: 1780864235
@@ -44,10 +45,19 @@ default:
       value: Send
   field_heading:
     -
-      value: 'Get in Touch'
+      value: 'Get in touch'
+  field_page:
+    -
+      entity: bc8b752a-454f-46db-a8c3-c3488c2fbffb
   field_property:
     -
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_section_key:
     -
       value: contact-cta
+  field_section_type:
+    -
+      value: contact-form
+  field_weight:
+    -
+      value: 20

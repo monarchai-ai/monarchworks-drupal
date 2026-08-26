@@ -1,0 +1,19 @@
+uuid: 18a700bc-9449-4721-aadf-fdf2a0cd5b52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_label
+    - node.type.nav_link
+id: node.nav_link.field_label
+field_name: field_label
+entity_type: node
+bundle: nav_link
+label: Label
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

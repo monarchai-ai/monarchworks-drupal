@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bc8b752a-454f-46db-a8c3-c3488c2fbffb
+  bundle: marketing_page
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+    14acbb85-cd34-4c53-84dd-597a782ca525: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: home
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_route:
+    -
+      value: /
+  field_scope:
+    -
+      value: monarchworks
+  field_site_meta:
+    -
+      entity: 14acbb85-cd34-4c53-84dd-597a782ca525

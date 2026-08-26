@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ee7de1d9-acb4-4a4c-a40a-a950ae4cb39a
+  bundle: site_meta
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'SEO: innovate-pricing'
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: innovate-pricing
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_seo_description:
+    -
+      value: 'A plan fee, a flat charge per live service, and usage passed through at cost — nothing hidden, and a spending cap you set from the first call.'
+  field_seo_title:
+    -
+      value: 'Innovate pricing — pay for what you put live'

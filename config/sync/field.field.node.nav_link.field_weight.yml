@@ -1,0 +1,23 @@
+uuid: 52f24e27-ab0d-414f-a314-53113559536e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.nav_link
+id: node.nav_link.field_weight
+field_name: field_weight
+entity_type: node
+bundle: nav_link
+label: Weight
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

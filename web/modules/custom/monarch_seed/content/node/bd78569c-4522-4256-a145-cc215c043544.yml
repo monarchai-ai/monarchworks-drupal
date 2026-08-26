@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: bd78569c-4522-4256-a145-cc215c043544
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    bc8b752a-454f-46db-a8c3-c3488c2fbffb: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: home-products
+  created:
+    -
+      value: 1783698698
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: 'Innovate is available today — your team can put an AI service to work inside your own product right now. Create and Build are on the way, carrying the same principle across how software gets designed and delivered. Every product keeps the people closest to the work in charge.'
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'The product family'
+  field_heading:
+    -
+      value: "One belief, <span class='text-gradient'>three products.</span>"
+  field_page:
+    -
+      entity: bc8b752a-454f-46db-a8c3-c3488c2fbffb
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: home-products
+  field_section_type:
+    -
+      value: product-cards
+  field_weight:
+    -
+      value: 12

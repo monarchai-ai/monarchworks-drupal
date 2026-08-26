@@ -1,0 +1,21 @@
+uuid: e9cfe17a-f4de-4417-93c1-9eed45ba1a70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scope
+    - node.type.nav_menu
+  module:
+    - options
+id: node.nav_menu.field_scope
+field_name: field_scope
+entity_type: node
+bundle: nav_menu
+label: Scope
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

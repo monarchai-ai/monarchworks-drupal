@@ -1,0 +1,11 @@
+uuid: 5b4f9f6c-3a2e-4e8c-814a-cf46445c1594
+langcode: en
+status: true
+dependencies: {  }
+name: 'Navigation Menu'
+type: nav_menu
+description: 'A scoped navigation or footer menu (MonarchWorks vs Innovate).'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

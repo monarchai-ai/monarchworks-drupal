@@ -1,0 +1,69 @@
+uuid: 6d308ee3-ae79-40b7-b0cf-39973038bbb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_section_type
+field_name: field_section_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: hero
+      label: Hero
+    -
+      value: belief
+      label: Belief
+    -
+      value: spotlight
+      label: Spotlight
+    -
+      value: feature-grid
+      label: 'Feature grid'
+    -
+      value: numbered-grid
+      label: 'Numbered grid'
+    -
+      value: steps
+      label: Steps
+    -
+      value: product-cards
+      label: 'Product cards'
+    -
+      value: comparison-table
+      label: 'Comparison table'
+    -
+      value: pricing-tiers
+      label: 'Pricing tiers'
+    -
+      value: faq-accordion
+      label: 'FAQ accordion'
+    -
+      value: live-demo
+      label: 'Live demo'
+    -
+      value: cta
+      label: CTA
+    -
+      value: contact-form
+      label: 'Contact form'
+    -
+      value: prose
+      label: Prose
+    -
+      value: trust-split
+      label: 'Trust split'
+    -
+      value: route-cards
+      label: 'Route cards'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

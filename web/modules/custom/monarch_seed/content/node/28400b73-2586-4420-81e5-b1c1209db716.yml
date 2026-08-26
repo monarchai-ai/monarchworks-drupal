@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 28400b73-2586-4420-81e5-b1c1209db716
+  bundle: nav_link
+  default_langcode: en
+  depends:
+    d7893adf-2a5e-4ed4-94d0-c93e54fc83c1: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'mw-header · Contact'
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_label:
+    -
+      value: Contact
+  field_menu:
+    -
+      entity: d7893adf-2a5e-4ed4-94d0-c93e54fc83c1
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_url:
+    -
+      value: /contact
+  field_weight:
+    -
+      value: 30

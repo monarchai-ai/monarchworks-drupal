@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 368bbbce-f707-4d82-b240-05456a7b9bce
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    29d76d8e-c89a-452f-8491-c336739b0fb4: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: hiw-detailed
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "<p>Under the surface, the pieces have names. Here's the real model.</p><h3>Agents</h3><p>Each agent has a purpose, the AI behind it, its instructions, and any tools or data it can reach.</p><h3>Collaboration</h3><p>One agent or several are arranged into a collaboration that controls how they hand off and share information. This arrangement is captured in a configuration — a <code>collaborationConfig</code>.</p><h3>Service</h3><p>The collaboration is deployed as a service with a <code>REST API</code> and <code>OpenAPI</code> schemas, so your own software can call it. One configuration can power more than one service.</p><h3>Running it</h3><p>Every call is recorded in a full <code>execution journal</code> — each step, what it produced, and what it cost. Usage is metered per service, and spending caps apply from the first call.</p>"
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'The detailed version'
+  field_heading:
+    -
+      value: 'For the technically curious'
+  field_page:
+    -
+      entity: 29d76d8e-c89a-452f-8491-c336739b0fb4
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: hiw-detailed
+  field_section_type:
+    -
+      value: prose
+  field_weight:
+    -
+      value: 20

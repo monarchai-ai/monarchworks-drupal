@@ -1,0 +1,33 @@
+uuid: 76a1244d-92bd-465d-9e5f-6deb2a4fe271
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_brand_mark
+field_name: field_brand_mark
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: gold
+      label: 'Gold (MonarchWorks)'
+    -
+      value: innovate
+      label: Innovate
+    -
+      value: create
+      label: Create
+    -
+      value: build
+      label: Build
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

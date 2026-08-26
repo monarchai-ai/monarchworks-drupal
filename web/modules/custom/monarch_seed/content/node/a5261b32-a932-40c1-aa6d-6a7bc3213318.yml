@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a5261b32-a932-40c1-aa6d-6a7bc3213318
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    53fd9e91-5ca0-4b5b-bf36-d02dc633baeb: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: answers-cmp1
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_heading:
+    -
+      value: 'Innovate vs. no-code agent builders'
+  field_page:
+    -
+      entity: 53fd9e91-5ca0-4b5b-bf36-d02dc633baeb
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"intro":"Both let you build an AI agent without being an engineer. The difference is where the agent ends up. No-code agent builders create standalone agents that live inside their own platform. Innovate builds an AI service that embeds inside your own product. With a no-code builder, the agent is something people visit. With Innovate, the service is something your product runs.","headers":["","No-code agent builders","Innovate"],"rows":[["Where the agent runs","Inside their platform","Inside your product"],["How people reach it","Their chat UI or app","Your own app calls it as a REST API"],["Built by non-engineers","Yes","Yes"],["Multi-agent collaboration","Varies","Yes \u2014 single or multi-agent behind one service"],["Embeds in your frontend\/backend","Rarely \/ hard to retrofit","Yes, by design"],["Cost visibility & spend caps","Varies","Per-service metering and caps built in"]],"callout":{"title":"When a no-code builder is the better choice","body":"If what you need is a standalone internal assistant \u2014 something your team chats with \u2014 a no-code agent builder may be the simpler fit. Innovate is the better choice when the AI needs to live inside the product you ship to customers, called by your own software, as a service you control and can see the cost of."}}'
+  field_section_key:
+    -
+      value: answers-cmp1
+  field_section_type:
+    -
+      value: comparison-table
+  field_weight:
+    -
+      value: 10

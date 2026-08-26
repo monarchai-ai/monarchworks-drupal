@@ -1,0 +1,69 @@
+uuid: 55da7864-d931-4a4b-a6a7-993e1035688b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.marketing_section.field_body
+    - field.field.node.marketing_section.field_cta_href
+    - field.field.node.marketing_section.field_cta_label
+    - field.field.node.marketing_section.field_eyebrow
+    - field.field.node.marketing_section.field_heading
+    - field.field.node.marketing_section.field_page
+    - field.field.node.marketing_section.field_property
+    - field.field.node.marketing_section.field_section_data
+    - field.field.node.marketing_section.field_section_key
+    - field.field.node.marketing_section.field_section_type
+    - field.field.node.marketing_section.field_weight
+    - node.type.marketing_section
+  module:
+    - options
+    - user
+id: node.marketing_section.default
+targetEntityType: node
+bundle: marketing_section
+mode: default
+content:
+  field_page:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_section_data:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_section_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_weight:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_body: true
+  field_cta_href: true
+  field_cta_label: true
+  field_eyebrow: true
+  field_heading: true
+  field_property: true
+  field_section_key: true

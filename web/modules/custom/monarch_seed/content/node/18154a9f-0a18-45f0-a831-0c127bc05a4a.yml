@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 18154a9f-0a18-45f0-a831-0c127bc05a4a
+  bundle: site_meta
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'SEO: contact'
+  created:
+    -
+      value: 1787328281
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: contact
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_seo_description:
+    -
+      value: "Tell us what your team is working on and what you'd want AI to do for it. Enterprise enquiries, partnerships, or a plain question — the same short form reaches us."
+  field_seo_title:
+    -
+      value: 'Contact MonarchWorks — talk to the team'

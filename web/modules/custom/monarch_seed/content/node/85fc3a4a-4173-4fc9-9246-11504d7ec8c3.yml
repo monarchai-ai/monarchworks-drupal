@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 85fc3a4a-4173-4fc9-9246-11504d7ec8c3
+  bundle: nav_link
+  default_langcode: en
+  depends:
+    d15a2a90-09cf-4f82-980b-ccf181c7a4cf: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'innovate-header · Start free'
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_column:
+    -
+      value: cta
+  field_label:
+    -
+      value: 'Start free'
+  field_menu:
+    -
+      entity: d15a2a90-09cf-4f82-980b-ccf181c7a4cf
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_url:
+    -
+      value: 'app:/'
+  field_weight:
+    -
+      value: 60

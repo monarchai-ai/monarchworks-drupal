@@ -1,0 +1,19 @@
+uuid: f249fe46-b9fa-4e53-b624-13290a657013
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_column
+    - node.type.nav_link
+id: node.nav_link.field_column
+field_name: field_column
+entity_type: node
+bundle: nav_link
+label: 'Footer column'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

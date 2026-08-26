@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b1eca94d-e4e1-4467-baa9-cdb7d8ecf431
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    481518cd-2f1d-4245-ba8e-166d629cbfd7: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: innovate-who
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_heading:
+    -
+      value: "For the people closest to the work — <span class='text-dim'>not the backlog.</span>"
+  field_page:
+    -
+      entity: 481518cd-2f1d-4245-ba8e-166d629cbfd7
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"items":["The people who run a process day to day, putting AI on the parts they know better than anyone.","Product managers shipping the AI feature customers keep asking for \u2014 without booking an engineering quarter.","Founders who need the smart part of their product working now, not months from now.","Agencies launching AI for one client after another, fast.","Enterprise teams giving every group a safe, visible way to go live."]}'
+  field_section_key:
+    -
+      value: innovate-who
+  field_section_type:
+    -
+      value: numbered-grid
+  field_weight:
+    -
+      value: 15

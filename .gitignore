@@ -3,7 +3,7 @@
 
 # Drupal core — managed by Composer (drupal/core-recommended)
 # Uncomment to exclude if not committing core:
-# /web/core/
+web/core/
 
 # Drupal user-uploaded files
 web/sites/*/files/

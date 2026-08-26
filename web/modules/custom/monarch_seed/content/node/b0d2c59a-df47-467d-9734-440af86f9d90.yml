@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b0d2c59a-df47-467d-9734-440af86f9d90
+  bundle: product
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Innovate
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_brand_mark:
+    -
+      value: innovate
+  field_features:
+    -
+      value: 'Embed AI services in your own product'
+    -
+      value: 'Single or multi-agent'
+    -
+      value: 'Cost visibility & spending caps'
+  field_name:
+    -
+      value: Innovate
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_slug:
+    -
+      value: innovate
+  field_status:
+    -
+      value: available
+  field_tagline:
+    -
+      value: 'AI as a Service.'

@@ -1,0 +1,21 @@
+uuid: c54bbf63-31d3-4f3b-aa8d-1790d1699c23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scope
+    - node.type.marketing_page
+  module:
+    - options
+id: node.marketing_page.field_scope
+field_name: field_scope
+entity_type: node
+bundle: marketing_page
+label: Scope
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

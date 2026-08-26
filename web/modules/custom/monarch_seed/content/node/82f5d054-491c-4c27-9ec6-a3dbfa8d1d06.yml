@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 82f5d054-491c-4c27-9ec6-a3dbfa8d1d06
+  bundle: nav_link
+  default_langcode: en
+  depends:
+    edaa2951-2532-4375-9f3f-1d7feda1a8a1: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'innovate-footer · Pricing'
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_column:
+    -
+      value: Product
+  field_label:
+    -
+      value: Pricing
+  field_menu:
+    -
+      entity: edaa2951-2532-4375-9f3f-1d7feda1a8a1
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_url:
+    -
+      value: /innovate/pricing
+  field_weight:
+    -
+      value: 30

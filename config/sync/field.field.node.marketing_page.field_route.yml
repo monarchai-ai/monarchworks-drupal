@@ -1,0 +1,19 @@
+uuid: 619179af-7cf2-43fa-a44d-4d5c6e8c7ba9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_route
+    - node.type.marketing_page
+id: node.marketing_page.field_route
+field_name: field_route
+entity_type: node
+bundle: marketing_page
+label: Route
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

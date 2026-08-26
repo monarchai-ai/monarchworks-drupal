@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4a4f459d-c6d3-4886-9a09-2f40e78f3396
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    bc8b752a-454f-46db-a8c3-c3488c2fbffb: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: home-where-next
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_eyebrow:
+    -
+      value: 'Where to go next'
+  field_heading:
+    -
+      value: 'Two doors. Pick yours.'
+  field_page:
+    -
+      entity: bc8b752a-454f-46db-a8c3-c3488c2fbffb
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"cards":[{"who":"For teams who want to use it","heading":"Bring AI into your product, on your terms.","body":"Try Innovate \u2014 describe what you need, shape it with your own judgment, and put it live with your people steering.","goLabel":"Explore Innovate","href":"/innovate"},{"who":"For partners & investors","heading":"Interested in where MonarchWorks is headed?","body":"We''d like to hear from you. The bigger story is best told in a conversation.","goLabel":"Get in touch","href":"\/contact"}]}'
+  field_section_key:
+    -
+      value: home-where-next
+  field_section_type:
+    -
+      value: route-cards
+  field_weight:
+    -
+      value: 40

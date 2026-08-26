@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 246dbfff-7e2c-4264-a8b2-2ab02d484e2f
+  bundle: site_meta
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'SEO: innovate-how-it-works'
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: innovate-how-it-works
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_seo_description:
+    -
+      value: 'You describe the outcome; Innovate assembles the agents and deploys the service — then shows you every run and every cost. Plain terms first, detail after.'
+  field_seo_title:
+    -
+      value: 'How Innovate works — from a description to a live service'

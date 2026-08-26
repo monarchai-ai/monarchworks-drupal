@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4d3809e6-9ccf-432a-a8dd-f2094ff90558
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    9a6c8bff-7032-4890-a04d-749a6aa528b3: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: about-products
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: 'Innovate puts AI services to work inside your product — the first MonarchWorks product, not the last. Create and Build come next, carrying the same idea across the rest of how software gets made. One test for all three: AI does its best work when the people who understand the work are directing it.'
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'Part of MonarchWorks'
+  field_heading:
+    -
+      value: 'The first of three.'
+  field_page:
+    -
+      entity: 9a6c8bff-7032-4890-a04d-749a6aa528b3
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: about-products
+  field_section_type:
+    -
+      value: product-cards
+  field_weight:
+    -
+      value: 30

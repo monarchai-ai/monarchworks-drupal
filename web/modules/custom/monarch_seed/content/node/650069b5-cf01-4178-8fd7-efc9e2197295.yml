@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 650069b5-cf01-4178-8fd7-efc9e2197295
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    53fd9e91-5ca0-4b5b-bf36-d02dc633baeb: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: answers-cta
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_cta_href:
+    -
+      value: 'app:/'
+  field_cta_label:
+    -
+      value: 'Ship your first AI service'
+  field_heading:
+    -
+      value: 'Answers read. Now see one run.'
+  field_page:
+    -
+      entity: 53fd9e91-5ca0-4b5b-bf36-d02dc633baeb
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"secondaryCta":{"label":"See how it works","href":"\/innovate\/how-it-works"}}'
+  field_section_key:
+    -
+      value: answers-cta
+  field_section_type:
+    -
+      value: cta
+  field_weight:
+    -
+      value: 40

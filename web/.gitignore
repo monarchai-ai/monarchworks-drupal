@@ -1,0 +1,17 @@
+
+/core
+/modules/contrib
+/profiles
+/sites
+/themes
+/autoload.php
+.csslintrc
+.es*
+.ht*
+examples.gitignore
+index.php
+INSTALL.txt
+README.*
+robots.txt
+updates.php
+

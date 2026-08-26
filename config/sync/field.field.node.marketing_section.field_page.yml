@@ -1,0 +1,27 @@
+uuid: f92e9c9a-3562-4aa1-9e06-5105c5247d00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page
+    - node.type.marketing_page
+    - node.type.marketing_section
+id: node.marketing_section.field_page
+field_name: field_page
+entity_type: node
+bundle: marketing_section
+label: Page
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      marketing_page: marketing_page
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

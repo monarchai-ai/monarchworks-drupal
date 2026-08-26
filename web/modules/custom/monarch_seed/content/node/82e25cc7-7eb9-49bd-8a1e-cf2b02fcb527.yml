@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 82e25cc7-7eb9-49bd-8a1e-cf2b02fcb527
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    9a6c8bff-7032-4890-a04d-749a6aa528b3: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: about-team
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "<p>Innovate is built by people who have spent 25 years running cloud infrastructure — the systems underneath other companies' software, kept running reliably and efficiently at scale. That background is the reason Innovate can do something that sounds contradictory: let a non-engineer put an AI service live, and have it actually hold up.</p>"
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'The team behind it'
+  field_heading:
+    -
+      value: "Built by people who've kept other companies' systems running for 25 years."
+  field_page:
+    -
+      entity: 9a6c8bff-7032-4890-a04d-749a6aa528b3
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: about-team
+  field_section_type:
+    -
+      value: prose
+  field_weight:
+    -
+      value: 20

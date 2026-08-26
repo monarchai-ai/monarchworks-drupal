@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3a94f40a-9e4d-4d5a-9431-dca65ec5f10e
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    9a6c8bff-7032-4890-a04d-749a6aa528b3: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: about-hero
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: 'For most of the history of software, having an idea and shipping it were two different jobs, done by two different people, separated by a queue. Innovate exists to close that gap for AI.'
+      format: basic_html
+  field_eyebrow:
+    -
+      value: About
+  field_heading:
+    -
+      value: 'We think the people with the ideas should be the ones who ship them.'
+  field_page:
+    -
+      entity: 9a6c8bff-7032-4890-a04d-749a6aa528b3
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: about-hero
+  field_section_type:
+    -
+      value: hero
+  field_weight:
+    -
+      value: 0

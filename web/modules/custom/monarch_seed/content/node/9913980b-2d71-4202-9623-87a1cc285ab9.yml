@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9913980b-2d71-4202-9623-87a1cc285ab9
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    84006606-3bc9-4a97-8af6-0f48812e74a7: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: about-mw-belief
+  created:
+    -
+      value: 1783698698
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "Our name comes from the monarch butterfly for a reason. Transformation, not substitution: the same creature, with far greater range. That's what our products do for expertise — what your people know takes flight as working software, and they hold the controls the entire way."
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'What we believe'
+  field_heading:
+    -
+      value: 'The people closest to the work should be the ones who shape it.'
+  field_page:
+    -
+      entity: 84006606-3bc9-4a97-8af6-0f48812e74a7
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: about-mw-belief
+  field_section_type:
+    -
+      value: belief
+  field_weight:
+    -
+      value: 20

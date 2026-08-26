@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ae614ab0-da96-41b0-b106-2c0371358f65
+  bundle: nav_link
+  default_langcode: en
+  depends:
+    d15a2a90-09cf-4f82-980b-ccf181c7a4cf: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'innovate-header · About'
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_label:
+    -
+      value: About
+  field_menu:
+    -
+      entity: d15a2a90-09cf-4f82-980b-ccf181c7a4cf
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_url:
+    -
+      value: /innovate/about
+  field_weight:
+    -
+      value: 50

@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 819ad6e6-fbe2-4b53-a704-c248628732d4
+  bundle: nav_link
+  default_langcode: en
+  depends:
+    601c496f-b319-4f68-9366-da8194d5ccd2: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'mw-footer · Innovate'
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_label:
+    -
+      value: Innovate
+  field_menu:
+    -
+      entity: 601c496f-b319-4f68-9366-da8194d5ccd2
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_url:
+    -
+      value: /innovate
+  field_weight:
+    -
+      value: 10

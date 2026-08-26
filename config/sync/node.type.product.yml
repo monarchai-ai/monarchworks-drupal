@@ -1,0 +1,11 @@
+uuid: d47dc466-19fc-428d-9e8b-4bb4668cc4d2
+langcode: en
+status: true
+dependencies: {  }
+name: Product
+type: product
+description: 'A MonarchWorks product (Innovate, Create, Build) — drives product cards and, later, product pages.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

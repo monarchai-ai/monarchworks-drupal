@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 059385f1-8ab1-44d9-ace4-4e9f47794bec
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    84006606-3bc9-4a97-8af6-0f48812e74a7: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: about-mw-mission
+  created:
+    -
+      value: 1783698698
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "<p>Innovate is our first product. It lets the people who understand the work put AI services live inside their own product — one agent or a team of them working together — and stay in command of what those services do and what they cost. Create and Build come next, carrying the same principle into how software is designed and delivered.</p><p>Three products, one test for all of them: does this put the person who understands the work in a stronger position? If it doesn't, we don't ship it.</p>"
+      format: basic_html
+  field_eyebrow:
+    -
+      value: "Where we're going"
+  field_heading:
+    -
+      value: 'One belief, carried across how software gets made.'
+  field_page:
+    -
+      entity: 84006606-3bc9-4a97-8af6-0f48812e74a7
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: about-mw-mission
+  field_section_type:
+    -
+      value: prose
+  field_weight:
+    -
+      value: 30

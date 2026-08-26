@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e8454d00-167f-4a77-a82a-4aea37353597
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    481518cd-2f1d-4245-ba8e-166d629cbfd7: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: innovate-hero
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: 'You describe the service you need; Innovate builds the whole thing — one smart agent or a team of them, running inside your own product. You shape it, steer it, and cap what it spends. And it can be live this afternoon.'
+      format: basic_html
+  field_cta_href:
+    -
+      value: 'app:/'
+  field_cta_label:
+    -
+      value: 'Ship your first AI service'
+  field_heading:
+    -
+      value: "AI as <span class='text-gradient'>a Service.</span>"
+  field_page:
+    -
+      entity: 481518cd-2f1d-4245-ba8e-166d629cbfd7
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"note":"plans from $99\/mo \u00b7 card required \u00b7 usage billed on top","secondaryCta":{"label":"Talk to us about enterprise","href":"\/contact?topic=enterprise"}}'
+  field_section_key:
+    -
+      value: innovate-hero
+  field_section_type:
+    -
+      value: hero
+  field_weight:
+    -
+      value: 0

@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 801ce697-c457-4d6d-b990-9daf1f8c14a7
+  bundle: site_meta
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'SEO: innovate-about'
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: innovate-about
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_seo_description:
+    -
+      value: "Innovate closes the gap between having the idea and shipping it — built by people who've run cloud infrastructure for 25 years, so a service a non-engineer puts live actually holds up."
+  field_seo_title:
+    -
+      value: 'About Innovate — why the people with the ideas should ship them'

@@ -40,7 +40,7 @@ default:
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_seo_description:
     -
-      value: 'Monarch Works is developing Create—a platform where human expertise and AI agents collaborate through structured specifications to deliver complete, production-ready software systems.'
+      value: 'MonarchWorks builds AI tools where the people who own the work stay in control. Our first product, Innovate, lets teams bring AI services into their own products — guided by the people who know the work best.'
   field_seo_title:
     -
-      value: Home
+      value: 'MonarchWorks — AI products that keep people in control'

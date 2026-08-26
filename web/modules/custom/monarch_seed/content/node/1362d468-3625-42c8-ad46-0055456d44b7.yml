@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1362d468-3625-42c8-ad46-0055456d44b7
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    29d76d8e-c89a-452f-8491-c336739b0fb4: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: hiw-hero
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "You describe the outcome; Innovate builds the service that delivers it, running inside your product. Here's what actually happens — plain terms first, detail after."
+      format: basic_html
+  field_eyebrow:
+    -
+      value: 'How it works'
+  field_heading:
+    -
+      value: 'From a sentence to<br>a working service.'
+  field_page:
+    -
+      entity: 29d76d8e-c89a-452f-8491-c336739b0fb4
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: hiw-hero
+  field_section_type:
+    -
+      value: hero
+  field_weight:
+    -
+      value: 0

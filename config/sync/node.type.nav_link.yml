@@ -1,0 +1,11 @@
+uuid: 9f17462e-f814-40ab-8b64-d4bf7ad2c109
+langcode: en
+status: true
+dependencies: {  }
+name: 'Navigation Link'
+type: nav_link
+description: 'A single link within a nav_menu.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

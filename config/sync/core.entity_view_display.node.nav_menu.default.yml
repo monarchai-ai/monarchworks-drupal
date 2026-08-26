@@ -1,0 +1,54 @@
+uuid: 454cec77-c178-4b53-9e0f-5f7c549e4cca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.nav_menu.field_menu_key
+    - field.field.node.nav_menu.field_placement
+    - field.field.node.nav_menu.field_property
+    - field.field.node.nav_menu.field_scope
+    - node.type.nav_menu
+  module:
+    - options
+    - user
+id: node.nav_menu.default
+targetEntityType: node
+bundle: nav_menu
+mode: default
+content:
+  field_menu_key:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_placement:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  field_property:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_scope:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5bc9ecd9-be37-4f14-b68f-e7b10d2061c8
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    481518cd-2f1d-4245-ba8e-166d629cbfd7: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: innovate-steps
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_eyebrow:
+    -
+      value: 'How it works'
+  field_heading:
+    -
+      value: 'Four steps. One afternoon.'
+  field_page:
+    -
+      entity: 481518cd-2f1d-4245-ba8e-166d629cbfd7
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"layout":"row","boxed":true,"steps":[{"body":"Describe what you need."},{"body":"Innovate puts the right AI together for the job."},{"body":"Place it inside your product, or use a ready-made piece."},{"body":"Use it, watch it, refine it."}],"cta":{"label":"See how it works, under the hood","href":"\/innovate\/how-it-works"}}'
+  field_section_key:
+    -
+      value: innovate-steps
+  field_section_type:
+    -
+      value: steps
+  field_weight:
+    -
+      value: 25

@@ -8,8 +8,11 @@ This module owns the `content/` directory, which stores Default Content exports 
 
 - Taxonomy terms (Property vocabulary: `monarchworks-website`, `monarch-app`)
 - `marketing_section` nodes: `hero`, `what-we-building`, `contact-cta`
-- `legal_document` nodes: `terms`, `privacy`
 - `site_meta` nodes: `home`, `terms`, `privacy`
+
+Legal policy content (Terms of Use, Privacy Policy) is not seeded here — AMS
+owns it as published PolicyDocument versions, and the website fetches the
+current version live from the AMS public policy-documents endpoint (task 443).
 - Media entities (referenced by content above; bytes stored in MinIO `drupal-content` bucket)
 
 ## Seed location convention

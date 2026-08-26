@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f5413dca-b25b-40ee-b721-93c43c18225c
+  bundle: nav_link
+  default_langcode: en
+  depends:
+    edaa2951-2532-4375-9f3f-1d7feda1a8a1: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'innovate-footer · Contact'
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_column:
+    -
+      value: Company
+  field_label:
+    -
+      value: Contact
+  field_menu:
+    -
+      entity: edaa2951-2532-4375-9f3f-1d7feda1a8a1
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_url:
+    -
+      value: /contact
+  field_weight:
+    -
+      value: 70

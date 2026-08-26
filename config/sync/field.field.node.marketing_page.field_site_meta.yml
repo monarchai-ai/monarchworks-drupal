@@ -1,0 +1,27 @@
+uuid: b7e7af5a-6cba-455b-a3b6-895980baf281
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_site_meta
+    - node.type.marketing_page
+    - node.type.site_meta
+id: node.marketing_page.field_site_meta
+field_name: field_site_meta
+entity_type: node
+bundle: marketing_page
+label: 'SEO (site_meta)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      site_meta: site_meta
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: f7cd9116-a8d5-4892-b893-e181d219e2f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_section_type
+    - node.type.marketing_section
+  module:
+    - options
+id: node.marketing_section.field_section_type
+field_name: field_section_type
+entity_type: node
+bundle: marketing_section
+label: 'Section type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

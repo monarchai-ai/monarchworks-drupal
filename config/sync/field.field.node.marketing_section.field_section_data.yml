@@ -1,0 +1,19 @@
+uuid: 3a402486-50e5-45fb-9802-b94670354a65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_section_data
+    - node.type.marketing_section
+id: node.marketing_section.field_section_data
+field_name: field_section_data
+entity_type: node
+bundle: marketing_section
+label: 'Section data (JSON)'
+description: 'Optional structured JSON payload for richer section types (pricing-tiers, comparison-table, faq-accordion, live-demo). Parsed by the Astro renderer.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fc46bb61-6685-48bc-8c3a-7121493a0375
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    e683c629-b27c-4840-ad42-7da56930783b: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: pricing-tiers
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page:
+    -
+      entity: e683c629-b27c-4840-ad42-7da56930783b
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"tiers":[{"name":"Starter","price":"$99","period":"\/mo","blurb":"Put your first AI service to work.","features":["2 included live services","$39\/mo per additional live service","Single or multi-agent services","Cost visibility & spending caps","Usage billed on top at cost plus 25%"],"ctaLabel":"Get started","ctaHref":"app:\/"},{"name":"Growth","price":"$399","period":"\/mo","blurb":"For teams shipping AI across the product.","features":["8 included live services","$29\/mo per additional live service","Embed the plugin in your own product","Usage billed on top at cost plus 25%"],"ctaLabel":"Get started","ctaHref":"app:\/","featured":true,"badge":"Most popular"},{"name":"Scale","price":"$999","period":"\/mo","blurb":"More services, more advanced behavior.","features":["25 included live services","$19\/mo per additional live service","Real-time messaging","Decision chaining","Usage billed on top at cost plus 25%"],"ctaLabel":"Get started","ctaHref":"app:\/"},{"name":"Enterprise","price":"Custom","blurb":"For organizations going live at scale.","features":["Unlimited live services","Committed volume","Single sign-on","Dedicated support","Usage billed on top at cost plus 25%"],"ctaLabel":"Talk to us","ctaHref":"\/contact?topic=enterprise"}],"note":"Every tier includes cost visibility and spending caps. Prices shown are indicative while we finalize plans."}'
+  field_section_key:
+    -
+      value: pricing-tiers
+  field_section_type:
+    -
+      value: pricing-tiers
+  field_weight:
+    -
+      value: 20

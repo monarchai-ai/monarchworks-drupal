@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 62dce96a-d39d-46aa-ac56-ecc3d7a590b6
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    171e8afd-da9c-4d98-9291-3e25bcc18574: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: contact-form
+  created:
+    -
+      value: 1787328281
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "<p>Tell us what your team is working on and what you'd want AI to do for it. Every enquiry reaches us directly and gets a reply from a person.</p><p>Would rather write to us? Our address is hello@monarchworks.ai.</p>"
+      format: basic_html
+  field_heading:
+    -
+      value: 'Get in touch'
+  field_page:
+    -
+      entity: 171e8afd-da9c-4d98-9291-3e25bcc18574
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: contact-form
+  field_section_type:
+    -
+      value: contact-form
+  field_weight:
+    -
+      value: 0

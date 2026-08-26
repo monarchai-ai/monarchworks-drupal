@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 647057d7-9890-4a1f-9c9b-c478c0d46661
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    e683c629-b27c-4840-ad42-7da56930783b: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: pricing-hero
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: "An AI service is one thing you've deployed — one agent or a whole team of them, working together behind a single service. Every plan is a flat monthly price that includes a number of live services; extra services add a flat monthly fee, and the AI usage they consume is billed on top at cost plus 25%. Nothing hidden, and a spending cap you set from the start."
+      format: basic_html
+  field_eyebrow:
+    -
+      value: Pricing
+  field_heading:
+    -
+      value: 'Pay for what<br>you put live.'
+  field_page:
+    -
+      entity: e683c629-b27c-4840-ad42-7da56930783b
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: pricing-hero
+  field_section_type:
+    -
+      value: hero
+  field_weight:
+    -
+      value: 0

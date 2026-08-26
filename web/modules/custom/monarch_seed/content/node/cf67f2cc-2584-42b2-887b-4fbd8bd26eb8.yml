@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cf67f2cc-2584-42b2-887b-4fbd8bd26eb8
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    481518cd-2f1d-4245-ba8e-166d629cbfd7: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: innovate-cta
+  created:
+    -
+      value: 1783361969
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_cta_href:
+    -
+      value: 'app:/'
+  field_cta_label:
+    -
+      value: 'Ship your first AI service'
+  field_heading:
+    -
+      value: 'Your first AI service is<br>an afternoon away.'
+  field_page:
+    -
+      entity: 481518cd-2f1d-4245-ba8e-166d629cbfd7
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_data:
+    -
+      value: '{"boxed":true,"secondaryCta":{"label":"Talk to us about enterprise","href":"\/contact?topic=enterprise"}}'
+  field_section_key:
+    -
+      value: innovate-cta
+  field_section_type:
+    -
+      value: cta
+  field_weight:
+    -
+      value: 40

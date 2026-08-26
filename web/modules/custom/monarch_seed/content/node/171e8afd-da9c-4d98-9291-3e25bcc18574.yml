@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 171e8afd-da9c-4d98-9291-3e25bcc18574
+  bundle: marketing_page
+  default_langcode: en
+  depends:
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+    18154a9f-0a18-45f0-a831-0c127bc05a4a: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: Contact
+  created:
+    -
+      value: 1787328281
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_page_key:
+    -
+      value: contact
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_route:
+    -
+      value: /contact
+  field_scope:
+    -
+      value: monarchworks
+  field_site_meta:
+    -
+      entity: 18154a9f-0a18-45f0-a831-0c127bc05a4a

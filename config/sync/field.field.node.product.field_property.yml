@@ -1,0 +1,24 @@
+uuid: d05f78a4-87ff-4dbb-bbeb-36fac1f8ade9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_property
+    - node.type.product
+    - taxonomy.vocabulary.property
+id: node.product.field_property
+field_name: field_property
+entity_type: node
+bundle: product
+label: Property
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      property: property
+field_type: entity_reference

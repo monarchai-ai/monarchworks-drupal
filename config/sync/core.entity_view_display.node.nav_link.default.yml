@@ -1,0 +1,74 @@
+uuid: 2fd0c195-8266-46ed-b0a2-d75d9fb98d75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.nav_link.field_column
+    - field.field.node.nav_link.field_label
+    - field.field.node.nav_link.field_menu
+    - field.field.node.nav_link.field_property
+    - field.field.node.nav_link.field_url
+    - field.field.node.nav_link.field_weight
+    - node.type.nav_link
+  module:
+    - user
+id: node.nav_link.default
+targetEntityType: node
+bundle: nav_link
+mode: default
+content:
+  field_column:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 30
+    region: content
+  field_label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_menu:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 25
+    region: content
+  field_property:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 35
+    region: content
+  field_url:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_weight:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 20
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

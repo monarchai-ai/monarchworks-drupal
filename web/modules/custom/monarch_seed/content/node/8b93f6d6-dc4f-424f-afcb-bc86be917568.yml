@@ -1,0 +1,57 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8b93f6d6-dc4f-424f-afcb-bc86be917568
+  bundle: marketing_section
+  default_langcode: en
+  depends:
+    e683c629-b27c-4840-ad42-7da56930783b: node
+    5e7c9617-f72b-4314-ba56-15549bdac466: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: pricing-plugin
+  created:
+    -
+      value: 1783385018
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_body:
+    -
+      value: '<p>Building and using a plugin inside Innovate is included on every plan — try it, shape it, see it work. Embedding it in your own product is available on Growth and up, and the embedded service is billed like any other live service.</p>'
+      format: basic_html
+  field_heading:
+    -
+      value: 'The plugin'
+  field_page:
+    -
+      entity: e683c629-b27c-4840-ad42-7da56930783b
+  field_property:
+    -
+      entity: 5e7c9617-f72b-4314-ba56-15549bdac466
+  field_section_key:
+    -
+      value: pricing-plugin
+  field_section_type:
+    -
+      value: prose
+  field_weight:
+    -
+      value: 30
