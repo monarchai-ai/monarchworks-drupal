@@ -47,7 +47,7 @@ default:
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_section_data:
     -
-      value: '{"cards":[{"who":"For teams who want to use it","heading":"Bring AI into your product, on your terms.","body":"Try Innovate \u2014 describe what you need, shape it with your own judgment, and put it live with your people steering.","goLabel":"Explore Innovate","href":"/innovate"},{"who":"For partners & investors","heading":"Interested in where MonarchWorks is headed?","body":"We''d like to hear from you. The bigger story is best told in a conversation.","goLabel":"Get in touch","href":"\/contact"}]}'
+      value: '{"cards":[{"who":"For teams who want to use it","heading":"Bring AI into your product, on your terms.","body":"Try Innovate \u2014 describe what you need, shape it with your own judgment, and put it live with your people steering.","goLabel":"Explore Innovate","href":"/innovate"},{"who":"For partners & enterprise","heading":"Bringing Innovate to your organization?","body":"We''d like to hear from you — tell us what your team is working on and we''ll come back with how Innovate fits.","goLabel":"Get in touch","href":"\/contact?topic=enterprise"}]}'
   field_section_key:
     -
       value: home-where-next

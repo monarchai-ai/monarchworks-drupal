@@ -35,7 +35,7 @@ default:
       langcode: en
   field_body:
     -
-      value: "An AI service is one thing you've deployed — one agent or a whole team of them, working together behind a single service. Every plan is a flat monthly price that includes a number of live services; extra services add a flat monthly fee, and the AI usage they consume is billed on top at cost plus 25%. Nothing hidden, and a spending cap you set from the start."
+      value: "An AI service is one thing you've deployed — one agent or a whole team of them, working together behind a single service. Every plan is a flat monthly price that includes a number of live services; extra services add a flat monthly fee, and the AI usage they consume is billed on top. Nothing hidden, and a spending cap you set from the start."
       format: basic_html
   field_eyebrow:
     -

@@ -35,7 +35,7 @@ default:
       langcode: en
   field_body:
     -
-      value: "<p>Innovate is our first product. It lets the people who understand the work put AI services live inside their own product — one agent or a team of them working together — and stay in command of what those services do and what they cost. Create and Build come next, carrying the same principle into how software is designed and delivered.</p><p>Three products, one test for all of them: does this put the person who understands the work in a stronger position? If it doesn't, we don't ship it.</p>"
+      value: "<p>Innovate puts this belief to work: the people who understand the work put AI services live inside their own product — one agent or a team of them working together — and stay in command of what those services do and what they cost.</p><p>One test for everything we ship: does it put the person who understands the work in a stronger position? If it doesn't, we don't ship it.</p>"
       format: basic_html
   field_eyebrow:
     -

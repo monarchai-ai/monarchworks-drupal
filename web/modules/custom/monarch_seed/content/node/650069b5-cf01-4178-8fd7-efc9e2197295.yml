@@ -41,7 +41,7 @@ default:
       value: 'Ship your first AI service'
   field_heading:
     -
-      value: 'Answers read. Now see one run.'
+      value: 'Got your answers? See it run.'
   field_page:
     -
       entity: 53fd9e91-5ca0-4b5b-bf36-d02dc633baeb

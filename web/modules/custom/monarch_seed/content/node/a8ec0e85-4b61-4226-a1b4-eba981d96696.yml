@@ -35,7 +35,7 @@ default:
       langcode: en
   field_body:
     -
-      value: 'A card to start, a spending cap from the first call, and no big up-front commitment. Cancel anytime.'
+      value: 'A spending cap from the first call, and no big up-front commitment.'
       format: basic_html
   field_cta_href:
     -

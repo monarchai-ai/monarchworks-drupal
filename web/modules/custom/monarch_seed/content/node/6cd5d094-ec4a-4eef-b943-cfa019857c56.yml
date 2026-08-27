@@ -35,7 +35,7 @@ default:
       langcode: en
   field_body:
     -
-      value: 'Every card below is a real site with an Innovate service working inside it, live right now. Open one and use it — no signup, no sales call, no catch.'
+      value: 'Every card below is a real site with an Innovate service working inside it, live right now. Open one and use it — no signup, no sales call.'
       format: basic_html
   field_eyebrow:
     -
