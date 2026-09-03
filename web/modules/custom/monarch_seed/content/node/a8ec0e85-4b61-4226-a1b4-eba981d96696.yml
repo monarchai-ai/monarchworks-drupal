@@ -39,7 +39,7 @@ default:
       format: basic_html
   field_cta_href:
     -
-      value: 'app:/'
+      value: 'app:/register'
   field_cta_label:
     -
       value: 'Ship your first AI service'
