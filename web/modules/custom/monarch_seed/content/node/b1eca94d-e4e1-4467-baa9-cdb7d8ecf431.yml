@@ -44,7 +44,7 @@ default:
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_section_data:
     -
-      value: '{"items":["The people who run a process day to day, putting AI on the parts they know better than anyone.","Product managers shipping the AI feature customers keep asking for \u2014 without booking an engineering quarter.","Founders who need the smart part of their product working now, not months from now.","Agencies launching AI for one client after another, fast.","Enterprise teams giving every group a safe, visible way to go live."]}'
+      value: '{"items":["The people who run a process day to day, putting AI on the parts they know better than anyone.","Product managers shipping the AI feature customers keep asking for \u2014 without booking an engineering quarter.","Founders who need the smart part of their product working now, not months from now.","Agencies launching AI for one client after another, fast.","Enterprise teams giving every group a safe, visible way to deploy."]}'
   field_section_key:
     -
       value: innovate-who

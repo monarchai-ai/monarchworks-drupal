@@ -35,7 +35,7 @@ default:
       langcode: en
   field_body:
     -
-      value: '<p>Building and using a plugin inside Innovate is included on every plan — try it, shape it, see it work. Embedding it in your own product is available on Growth and up, and the embedded service is billed like any other live service.</p>'
+      value: '<p>Building and using a plugin inside Innovate is included on every plan — try it, shape it, see it work. Embedding it in your own product is available on Growth and up, and the embedded service is billed like any other AI Service.</p>'
       format: basic_html
   field_heading:
     -

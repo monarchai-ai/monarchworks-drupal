@@ -35,7 +35,7 @@ default:
       langcode: en
   field_body:
     -
-      value: 'You describe the service you need; Innovate builds the whole thing — one smart agent or a team of them, running inside your own product. You shape it, steer it, and cap what it spends. And it can be live this afternoon.'
+      value: 'You describe the service you need; Innovate builds the whole thing — one smart agent or a team of them, running inside your own product. You shape it, steer it, and cap what it spends. And it can be deployed this afternoon.'
       format: basic_html
   field_cta_href:
     -
@@ -54,7 +54,7 @@ default:
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_section_data:
     -
-      value: '{"note":"plans from $99\/mo \u00b7 spending caps you control","secondaryCta":{"label":"Talk to us about enterprise","href":"\/contact?topic=enterprise"}}'
+      value: '{"note":"Free to start \u00b7 paid plans from $99\/mo","secondaryCta":{"label":"Talk to us about enterprise","href":"\/contact?topic=enterprise"}}'
   field_section_key:
     -
       value: innovate-hero

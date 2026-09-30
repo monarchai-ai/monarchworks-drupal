@@ -40,7 +40,7 @@ default:
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_seo_description:
     -
-      value: "Innovate closes the gap between having the idea and shipping it — built by people who've run cloud infrastructure for 25 years, so a service a non-engineer puts live actually holds up."
+      value: "Innovate closes the gap between having the idea and shipping it — built by people who've run cloud infrastructure for 25 years, so a service a non-engineer deploys actually holds up."
   field_seo_title:
     -
       value: 'About Innovate — why the people with the ideas should ship them'

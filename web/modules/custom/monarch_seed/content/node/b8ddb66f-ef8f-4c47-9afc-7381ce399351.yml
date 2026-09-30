@@ -35,7 +35,7 @@ default:
       langcode: en
   field_body:
     -
-      value: "Innovate is live today. Explore it, or get in touch — we'd like to hear what your team would put it to work on."
+      value: "Innovate is available today. Explore it, or get in touch — we'd like to hear what your team would put it to work on."
       format: basic_html
   field_cta_href:
     -

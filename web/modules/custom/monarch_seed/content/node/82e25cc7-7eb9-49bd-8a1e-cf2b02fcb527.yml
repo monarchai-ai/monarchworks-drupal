@@ -35,7 +35,7 @@ default:
       langcode: en
   field_body:
     -
-      value: "<p>Innovate is built by people who have spent 25 years running cloud infrastructure — the systems underneath other companies' software, kept running reliably and efficiently at scale. That background is the reason Innovate can do something that sounds contradictory: let a non-engineer put an AI service live, and have it actually hold up.</p>"
+      value: "<p>Innovate is built by people who have spent 25 years running cloud infrastructure — the systems underneath other companies' software, kept running reliably and efficiently at scale. That background is the reason Innovate can do something that sounds contradictory: let a non-engineer deploy an AI Service, and have it actually hold up.</p>"
       format: basic_html
   field_eyebrow:
     -

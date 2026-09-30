@@ -44,7 +44,7 @@ default:
       entity: 5e7c9617-f72b-4314-ba56-15549bdac466
   field_section_data:
     -
-      value: '{"columns":3,"cards":[{"eyebrow":"01 \u00b7 Plan fee","body":"Your flat monthly base. It sets which capabilities you have and includes a number of live services."},{"eyebrow":"02 \u00b7 Per live service","body":"A flat monthly charge for each live service beyond the ones your plan includes."},{"eyebrow":"03 \u00b7 Usage","body":"The AI usage your services consume, billed on top at cost plus 25%. A spending cap keeps it all under control."}]}'
+      value: '{"columns":3,"cards":[{"eyebrow":"01 \u00b7 Plan fee","body":"Your flat monthly base. It sets which capabilities you have and includes a number of AI Services."},{"eyebrow":"02 \u00b7 Per AI Service","body":"A flat monthly charge for each AI Service beyond the ones your plan includes."},{"eyebrow":"03 \u00b7 Usage","body":"The AI usage your services consume, billed on top at cost plus 25%. A spending cap keeps it all under control."}]}'
   field_section_key:
     -
       value: pricing-three
